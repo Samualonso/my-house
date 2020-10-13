@@ -64,7 +64,9 @@ public class Picture
         campo.makeVisible();
         
         sun.slowMoveVertical(-190);
+        
     }
+    
 
     /**
      * Change this picture to black/white display
@@ -92,5 +94,10 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+    
+    public void atardecer()
+    {
+        sun.slowMoveVertical(190);
     }
 }
